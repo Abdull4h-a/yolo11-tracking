@@ -1,7 +1,8 @@
 # Instance Segmentation and Tracking with YOLO11
 
 This script uses the YOLO11 model for instance segmentation and object tracking. It detects objects, tracks them, and annotates frames with person count and density level (Low/High).
-Features
+
+## Features
 
    - Person tracking with unique IDs.
    - Annotated frames with density level and person count.
@@ -10,27 +11,32 @@ Features
 ## Requirements
 
    - Python 3.8+
-   - See requirements.txt for dependencies.
+   - See `requirements.txt` for dependencies.
 
 ## Installation
 
    - Clone the repository:
-
-git clone https://github.com/Abdull4h-a/yolo11-tracking.git
-cd yolo11-tracking
+     ```bash
+     git clone https://github.com/Abdull4h-a/yolo11-tracking.git
+     cd yolo11-tracking
+     ```
 
 ## Install the dependencies:
-
-    pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-Run the script with a video file:
-
-python trace.py <video_path> [output_path]
+   - Run the script with a video file:
+     ```bash
+     python trace.py <video_path> [output_path]
+     ```
 
 ## Example
 
-python trace.py video.mp4 output.avi
+   ```bash
+   python trace.py video.mp4 output.avi
+   ```
 
-This processes the input video video.mp4 and saves the annotated video as output.avi.
+   This processes the input video `video.mp4` and saves the annotated video as `output.avi`.
