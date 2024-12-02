@@ -31,7 +31,7 @@ def main(video_path, output_path="output.avi"):
     Process a video to detect and track people using YOLO, and display count/density information.
     """
     # Load YOLO model
-    model = YOLO("yolo11l-seg.pt")
+    model = YOLO("yolo11n-seg.pt")
     
     # Open video
     cap = cv2.VideoCapture(video_path)
